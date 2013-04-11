@@ -59,32 +59,65 @@
   </rezept>
   
   <rezept>
-    <titel>str1234</titel>
-    <subtitel>str1234</subtitel>
+    <titel>Vegetarischer Nudelauflauf </titel>
+    <subtitel>sehr schnell und günstig </subtitel>
     <fotos>
       <foto>
-        <benutzer>str1234</benutzer>
-        <bildadresse>http://www.xsd2xml.com</bildadresse>
+        <benutzer>frida2011</benutzer>
+        <bildadresse>http://www.url.com/foto3.jpgm</bildadresse>
       </foto>
     </fotos>
-    <portionen>745</portionen>
+    <portionen>4</portionen>
     <zutaten>
       <zutat>
-        <zutatenart>str1234</zutatenart>
-        <menge>123.45</menge>
-        <einheit>str1234</einheit>
+        <zutatenart>Penne</zutatenart>
+        <menge>500</menge>
+        <einheit>g</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Tomatenmark</zutatenart>
+        <menge>1</menge>
+        <einheit>Tuben</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Sahne</zutatenart>
+        <menge>400</menge>
+        <einheit>ml</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Tomate(n)</zutatenart>
+        <menge>4</menge>
+        <einheit>Dose</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Käse(Gouda oder Mozzarella</zutatenart>
+        <menge>250</menge>
+        <einheit>g</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Olivenöl</zutatenart>
+        <menge>100</menge>
+        <einheit>ml</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Kräuter (italienische Art)</zutatenart>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Salz und Pfeffer</zutatenart>
+        <einheit></einheit>
       </zutat>
     </zutaten>
-    <arbeitszeit einheit="str1234" />
+    <arbeitszeit einheit="min">25</arbeitszeit>
     <schwierigkeitsgrad>leicht</schwierigkeitsgrad>
-    <brennwert einheit="str1234" />
-    <zubereitung>str1234</zubereitung>
+    <brennwert />
+    <zubereitung>Zuerst die Penne so lange in Salzwasser kochen, bis sie gut ....</zubereitung>
     <kommentare>
       <kommentar>
-        <verfasser>str1234</verfasser>
-        <avatar>http://www.xsd2xml.com</avatar>
+        <verfasser>CookingJulie</verfasser>
+        <avatar>http://www.url.com/foto3.jpgm</avatar>
         <erstellungsdatum>2012-12-13T12:12:12</erstellungsdatum>
-        <nachricht>str1234</nachricht>
+        <nachricht>Hallo, das ist wirklich ein total leckerer Nudelauflauf ...</nachricht>
       </kommentar>
     </kommentare>
   </rezept>
