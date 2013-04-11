@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gruppe>
+	<GruppenLeiter>
+		<Vorname>Oliver</Vorname>
+		<Nachname>Kahn</Nachname>
+		<Email>troll@lol.com</Email>
+		<Geburtsdatum>01.01.1978</Geburtsdatum>
+		<Erfahrung>N/A</Erfahrung>
+		<Schlagzeug>true</Schlagzeug>
+		<Anmerkungen>N/A</Anmerkungen>
+	</GruppenLeiter>
+	<Personen>
+		<Person id="1337">
+			<Vorname>Armando</Vorname>
+			<Nachname>Maradona</Nachname>
+			<Email>trollo@lol.com</Email>
+			<Geburtsdatum>30.10.1960</Geburtsdatum>
+			<Erfahrung>Alles OK</Erfahrung>
+			<Schlagzeug>false</Schlagzeug>
+		</Person>
+	</Personen>
+</Gruppe>
