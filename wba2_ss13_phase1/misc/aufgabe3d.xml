@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rezepte>
+  <rezept>
+    <titel>Vegetarischer Hamburger</titel>
+    <subtitel>Big Mac á la Fips</subtitel>
+    <fotos>
+      <foto>
+        <benutzer>CocaColaMaus</benutzer>
+        <bildadresse>http://www.url.com/Foto1.jpg</bildadresse>
+      </foto>
+    </fotos>
+    <portionen>2</portionen>
+    <zutaten>
+      <zutat>
+        <zutatenart>Brötchen</zutatenart>
+        <menge>2</menge>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Brötchen</zutatenart>
+        <menge>2</menge>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Haferflocken</zutatenart>
+        <menge>80</menge>
+        <einheit>g</einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Zwiebel</zutatenart>
+        <menge>1</menge>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Salz</zutatenart>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Paprikapulver</zutatenart>
+        <einheit></einheit>
+      </zutat>
+      <zutat>
+        <zutatenart>Sauce (French Dressing)</zutatenart>
+        <einheit></einheit>
+      </zutat>
+    </zutaten>
+    <arbeitszeit einheit="min">20</arbeitszeit> />
+    <schwierigkeitsgrad>normal</schwierigkeitsgrad>
+    <brennwert />
+    <zubereitung>Die Zwiebeln schälen, sehr fein würfeln und glasig dünsten ....</zubereitung>
+    <kommentare>
+      <kommentar>
+        <verfasser>str1234</verfasser>
+        <avatar>http://www.url.com/foto3.jpgm</avatar>
+        <erstellungsdatum>2012-12-13T12:12:12</erstellungsdatum>
+        <nachricht>Dieses Rezeot ist mein Libelingsrezept ......</nachricht>
+      </kommentar>
+    </kommentare>
+  </rezept>
+  
+  <rezept>
+    <titel>str1234</titel>
+    <subtitel>str1234</subtitel>
+    <fotos>
+      <foto>
+        <benutzer>str1234</benutzer>
+        <bildadresse>http://www.xsd2xml.com</bildadresse>
+      </foto>
+    </fotos>
+    <portionen>745</portionen>
+    <zutaten>
+      <zutat>
+        <zutatenart>str1234</zutatenart>
+        <menge>123.45</menge>
+        <einheit>str1234</einheit>
+      </zutat>
+    </zutaten>
+    <arbeitszeit einheit="str1234" />
+    <schwierigkeitsgrad>leicht</schwierigkeitsgrad>
+    <brennwert einheit="str1234" />
+    <zubereitung>str1234</zubereitung>
+    <kommentare>
+      <kommentar>
+        <verfasser>str1234</verfasser>
+        <avatar>http://www.xsd2xml.com</avatar>
+        <erstellungsdatum>2012-12-13T12:12:12</erstellungsdatum>
+        <nachricht>str1234</nachricht>
+      </kommentar>
+    </kommentare>
+  </rezept>
+</rezepte>
