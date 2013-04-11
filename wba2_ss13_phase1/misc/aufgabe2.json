@@ -1,0 +1,28 @@
+{
+	"Gruppenleiter" : {
+		{ 	"Vorname": "Max",
+		  	"Nachname":"Mustermann", 
+		  	"Email":"troll@lol.com", 
+			"Geburtsdatum":"01.01.1900", 
+			"Erfahrung":"N/A", 
+			"Schlagzeug":true, 
+			"Anmerkungen":"N/A" 
+		}
+	},
+	"Personen" :  [
+		{ 	"Vorname": "Robin",
+		  	"Nachname":"Dergleich", 
+		  	"Email":"trollo@lol.com", 
+			"Geburtsdatum":"01.02.1900", 
+			"Erfahrung":"N/A", 
+			"Schlagzeug":false, 
+		},
+		{ 	"Vorname": "Mario",
+		  	"Nachname":"Götze", 
+		  	"Email":"troll@lol.com", 
+			"Geburtsdatum":"01.01.1900", 
+			"Erfahrung":"N/A", 
+			"Schlagzeug":true, 
+		}
+	]
+}

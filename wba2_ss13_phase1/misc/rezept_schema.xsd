@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+	<xsd:element name="rezepte" type="rezepte_type" />
+	<xsd:element name="rezept" type="rezept_type" />
+	<xsd:element name="titel" type="xsd:string" />
+	<xsd:element name="subtitel" type="xsd:string" />
+	<xsd:element name="fotos" type="fotos_type" />
+	<xsd:element name="foto" type="foto_type" /> 
+	<xsd:element name="benutzer" type="xsd:string" />
+	<xsd:element name="bildadresse" type="xsd:anyURI" />
+	<xsd:element name="portionen" type="xsd:positiveInteger" />
+	<xsd:element name="zutaten" type="zutaten_type" />
+	<xsd:element name="zutat" type="zutat_type" />
+	<xsd:element name="zutatenart" type="xsd:string" />
+	<xsd:element name="menge" type="menge_type" />
+	<xsd:element name="einheit" type="xsd:string" />
+	<xsd:element name="arbeitszeit" type="arbeitszeit_type" />
+	<xsd:element name="schwierigkeitsgrad" type="schwierigkeitsgrad_type" />
+	<xsd:element name="brennwert" type="brennwert_type" />
+	<xsd:element name="zubereitung" type="xsd:string" />
+	<xsd:element name="kommentare" type="kommentare_type" />
+	<xsd:element name="kommentar" type="kommentar_type" />
+	<xsd:element name="verfasser" type="xsd:string" />
+	<xsd:element name="avatar" type="xsd:anyURI" />
+	<xsd:element name="erstellungsdatum" type="xsd:dateTime" />
+	<xsd:element name="nachricht" type="xsd:string" />
+
+	<xsd:complexType name="rezepte_type">
+		<xsd:sequence>
+			<xsd:element ref="rezept" maxOccurs="unbounded" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="rezept_type">
+		<xsd:sequence>
+			<xsd:element ref="titel" />
+			<xsd:element ref="subtitel" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="fotos" />
+			<xsd:element ref="portionen" />
+			<xsd:element ref="zutaten" />
+			<xsd:element ref="arbeitszeit" />
+			<xsd:element ref="schwierigkeitsgrad" />
+			<xsd:element ref="brennwert" />
+			<xsd:element ref="zubereitung" />
+			<xsd:element ref="kommentare" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="fotos_type">
+		<xsd:sequence>
+			<xsd:element ref="foto" maxOccurs="unbounded" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="foto_type">
+		<xsd:sequence>
+			<xsd:element ref="benutzer" />
+			<xsd:element ref="bildadresse" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="zutaten_type">
+		<xsd:sequence>
+			<xsd:element ref="zutat" maxOccurs="unbounded" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="zutat_type">
+		<xsd:sequence>
+			<xsd:element ref="zutatenart" />
+			<xsd:element ref="menge" minOccurs="0" maxOccurs="1" />
+			<xsd:element ref="einheit" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="arbeitszeit_type">
+       	<xsd:simpleContent>
+       		<xsd:extension base="xsd:integer">
+            	<xsd:attribute name="einheit" type="xsd:string" use="required"/>
+            </xsd:extension>
+       	</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:simpleType name="schwierigkeitsgrad_type">
+      	<xsd:restriction base="xsd:string">
+        	<xsd:enumeration value="leicht"/>
+        	<xsd:enumeration value="normal"/>
+        	<xsd:enumeration value="schwer"/>
+     	 </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="brennwert_type">
+       	<xsd:simpleContent>
+       		<xsd:extension base="xsd:integer">
+            	<xsd:attribute name="einheit" type="xsd:string" />
+            </xsd:extension>
+       	</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="kommentare_type">
+		<xsd:sequence>
+			<xsd:element ref="kommentar" maxOccurs="unbounded" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="kommentar_type">
+		<xsd:sequence>
+			<xsd:element ref="verfasser" />
+			<xsd:element ref="avatar" />
+			<xsd:element ref="erstellungsdatum" />
+			<xsd:element ref="nachricht" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="menge_type">
+      	<xsd:restriction base="xsd:decimal">
+			<xsd:minExclusive value="0"/>
+      	</xsd:restriction>
+    </xsd:simpleType>
+
+</xsd:schema>
