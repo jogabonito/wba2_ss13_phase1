@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rezepte>
+	<rezept>
+		<titel>Lenchen's Schokoladenkuchen</titel>
+		<fotos>
+			<foto>
+				<benutzer>zahnlücke</benutzer>
+				<adresse>http://www.url.com/foto1.jpg</adresse>
+			</foto>
+			<foto>
+				<benutzer>garfield84</benutzer>
+				<adresse>http://www.url.com/foto2.jpg</adresse>
+			</foto>
+		</fotos>
+		<portitionen>16</portitionen>
+		<zutaten>
+			<zutat>
+				<zutatenart>Butter</zutatenart>
+				<menge>200</menge>
+				<einheit>g</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Zucker</zutatenart>
+				<menge>200</menge>
+				<einheit>g</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Schokolade, Blockschokolade</zutatenart>
+				<menge>200</menge>
+				<einheit>g</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Mehl</zutatenart>
+				<menge>120</menge>
+				<einheit>g</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Backpulver</zutatenart>
+				<menge>0,5</menge>
+				<einheit>TL</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Vanillezucker</zutatenart>
+				<menge>1</menge>
+				<einheit>Pkt.</einheit>
+			</zutat>
+			<zutat>
+				<zutatenart>Zucker</zutatenart>
+				<menge>200</menge>
+				<einheit>g</einheit>
+			</zutat>
+		</zutaten>
+		<arbeitszeit einheit="Std">1</arbeitszeit>	
+		<schwierigkeitsgrad>normal</schwierigkeitsgrad>
+		<brennwert einheit="kcal">295</brennwert>
+		<zubereitung>Butter und Schokolade im Wasserbad schmelzen...</zubereitung>
+		<kommentare>
+			<kommentar>
+				<verfasser>swieslechen90</verfasser>
+				<avatar>http://www.url.com/avatar1.jpg</avatar>
+				<erstellungsdatum>2002-02-07T18:49:00.000+01:00</erstellungsdatum>
+				<nachricht>Habe Deinen Kuchen gestern...</nachricht>
+			</kommentar>
+			<kommentar>
+				<verfasser>Mane</verfasser>
+				<avatar>http://www.url.com/avatar2.jpg</avatar>
+				<erstellungsdatum>2003-01-07T15:06:00.000+01:00</erstellungsdatum>
+				<nachricht>Habe ihn eben gebacken...</nachricht>
+			</kommentar>
+		</kommentare>
+	</rezept>
+</rezepte>
